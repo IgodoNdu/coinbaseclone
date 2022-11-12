@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
+import welcomeStyle from './styles/welcomeStyle';
 
 const Welcome = (props) => {
   //destructure/unpack navigation from props
@@ -15,9 +16,9 @@ const Welcome = (props) => {
   }, [])
 
   return (
-    <SafeAreaView>
-      <View>
-        <Text>CoinKingdom</Text>
+    <SafeAreaView style={welcomeStyle.container}>
+      <View style={welcomeStyle.mainView}>
+        <Text style={welcomeStyle.textStyle}>CoinKingdom</Text>
       </View>
     </SafeAreaView>
   )
