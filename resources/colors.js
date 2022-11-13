@@ -1,4 +1,5 @@
 export default colors = {
     white: "#ffffff",
-    primaryBlue: "#0052fe"
+    primaryBlue: "#0052fe",
+    mediumGray: "gray",
 }
