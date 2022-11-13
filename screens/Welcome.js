@@ -27,6 +27,7 @@ const Welcome = (props) => {
             <Button 
               text="Get Started - Bido" 
               disabled={false} 
+              onPress={() => navigation.navigate("Signup")}
               btnStyle={welcomeStyle.btnStyle}
               btnTextStyle={welcomeStyle.btnTextStyle}
             />
